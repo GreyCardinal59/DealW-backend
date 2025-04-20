@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md.
+            "name": "netcoredbg",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/DealW.API/bin/Debug/net8.0/DealW.API.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/DealW.API",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "pipeTransport": {
+                "pipeCwd": "${workspaceFolder}",
+                "pipeProgram": "powershell",
+                "pipeArgs": ["-Command"],
+                "debuggerPath": "D:/SharpDebugger/netcoredbg/netcoredbg",
+                "debuggerArgs": ["--interpreter=vscode"],
+                "quoteArgs": true
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+
+        },
+    ]
+}

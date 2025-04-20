@@ -1,0 +1,32 @@
+﻿services:
+  dealw:
+    image: dealw
+    container_name: DealW
+    build:
+      context: .
+      dockerfile: DealW.API/Dockerfile
+    ports:
+      - "5000:8080"
+      - "5001:8081"
+        
+  keycloak:
+    image: quay.io/keycloak/keycloak:latest
+    container_name: Keycloak
+    command: start-dev
+    environment:
+      - KC_HEALTH_ENABLED=true --log-level=INFO --log="console"
+      - KEYCLOAK_ADMIN=admin
+      - KEYCLOAK_ADMIN_PASSWORD=admin
+#      - KC_BOOTSTRAP_ADMIN_USERNAME=admin
+#      - KC_BOOTSTRAP_ADMIN_PASSWORD=admin
+      - KC_HEALTH_ENABLED=true
+#    volumes:
+#      - ./src/DealW-backend/.containers/identity:/opt/keycloak/data
+    ports:
+      - "8090:8080"
+    healthcheck:
+      test: [ "CMD", "curl", "--silent", "--fail", "http://localhost:8080/auth/realms/master" ]
+      interval: 30s
+      retries: 5
+      start_period: 10s
+      timeout: 10s

@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  dealw:
+    build:
+      context: "D:\\Projects\\DealW\\src\\DealW-backend"
+      dockerfile: "DealW.API/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/DealW.API.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "dealw:dev"
+    ports: []
+    volumes:
+    - "D:\\Projects\\DealW\\src\\DealW-backend\\DealW.API:/app:rw"
+    - "D:\\Projects\\DealW\\src\\DealW-backend:/src:rw"
+    - "C:\\Users\\SiBro\\.nuget\\packages:/home/app/.nuget/packages"
+    working_dir: "/app"

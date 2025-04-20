@@ -1,0 +1,12 @@
+D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\bin\Debug\net8.0\DealW.Infrastructure.deps.json
+D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\bin\Debug\net8.0\DealW.Infrastructure.dll
+D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\bin\Debug\net8.0\DealW.Infrastructure.pdb
+D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.AssemblyInfo.cs
+D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.dll
+D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\refint\DealW.Infrastructure.dll
+D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.pdb
+D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\ref\DealW.Infrastructure.dll
