@@ -12,8 +12,12 @@
   keycloak:
     image: quay.io/keycloak/keycloak:latest
     container_name: Keycloak
-    command: start-dev
+    command: >
+      start-dev 
+      --import-realm
+    user: root
     environment:
+      - KC_FEATURES=preview
       - KC_HEALTH_ENABLED=true --log-level=INFO --log="console"
       - KEYCLOAK_ADMIN=admin
       - KEYCLOAK_ADMIN_PASSWORD=admin

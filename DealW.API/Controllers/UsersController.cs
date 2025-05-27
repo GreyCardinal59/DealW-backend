@@ -1,5 +1,5 @@
-﻿using System.Security.Claims;
-using DealW.Infrastructure.Authentication;
+﻿using DealW.Infrastructure.Authentication;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,7 +17,9 @@ public class UsersController(IKeycloakAuthorizeApiClient keycloakAuthorizeApiCli
     // }
     
     [HttpGet("all")]
-    [Authorize]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    //ctrl + f5 чистит кеш
+    [ResponseCache(Location = ResponseCacheLocation.None, NoStore = true, Duration = 10)]
     public async Task<IActionResult> GetUsers([FromQuery] int take = 10, [FromQuery] int skip = 0)
     {
         var users = await keycloakAuthorizeApiClient.GetUsers(take, skip); 

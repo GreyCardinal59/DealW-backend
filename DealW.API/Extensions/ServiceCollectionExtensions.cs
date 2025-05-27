@@ -17,39 +17,35 @@ internal static class ServiceCollectionExtensions
                 Type = SecuritySchemeType.OAuth2,
                 Flows = new OpenApiOAuthFlows
                 {
-                    Implicit = new OpenApiOAuthFlow
+                    AuthorizationCode = new OpenApiOAuthFlow
                     {
                         AuthorizationUrl = new Uri(configuration["Keycloak:AuthorizationUrl"]!),
+                        TokenUrl = new Uri(configuration["Keycloak:TokenUrl"]!),
                         Scopes = new Dictionary<string, string>
                         {
-                            { "openid", "openid" },
-                            { "profile", "profile" }
+                            { "openid", "User identifier" },
+                            { "profile", "User profile" }
                         }
                     }
                 }
             });
 
-            var securityRequirement = new OpenApiSecurityRequirement
+            o.AddSecurityRequirement(new OpenApiSecurityRequirement
             {
                 {
                     new OpenApiSecurityScheme
                     {
                         Reference = new OpenApiReference
                         {
-                            Id = "Keycloak",
-                            Type = ReferenceType.SecurityScheme
-                        },
-                        In = ParameterLocation.Header,
-                        Name = "Bearer",
-                        Scheme = "Bearer"
+                            Type = ReferenceType.SecurityScheme,
+                            Id = "Keycloak"
+                        }
                     },
-                    []
+                    ["openid", "profile"]
                 }
-            };
-            
-            o.AddSecurityRequirement(securityRequirement);
+            });
         });
-        
+
         return services;
     }
 }
