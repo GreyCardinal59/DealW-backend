@@ -1,5 +1,3 @@
-using System.Net;
-
 namespace DealW.Infrastructure.Authentication;
 
 public class KeycloakGeneratedApiException(

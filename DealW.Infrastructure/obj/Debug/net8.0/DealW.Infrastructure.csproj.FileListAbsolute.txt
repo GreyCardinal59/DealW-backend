@@ -10,3 +10,16 @@ D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.
 D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\refint\DealW.Infrastructure.dll
 D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.pdb
 D:\Projects\DealW\src\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\ref\DealW.Infrastructure.dll
+C:\Users\User\RiderProjects\DealW-backend\DealW.Infrastructure\bin\Debug\net8.0\DealW.Infrastructure.deps.json
+C:\Users\User\RiderProjects\DealW-backend\DealW.Infrastructure\bin\Debug\net8.0\DealW.Infrastructure.dll
+C:\Users\User\RiderProjects\DealW-backend\DealW.Infrastructure\bin\Debug\net8.0\DealW.Infrastructure.pdb
+C:\Users\User\RiderProjects\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\RiderProjects\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.AssemblyInfo.cs
+C:\Users\User\RiderProjects\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.sourcelink.json
+C:\Users\User\RiderProjects\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.dll
+C:\Users\User\RiderProjects\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\refint\DealW.Infrastructure.dll
+C:\Users\User\RiderProjects\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\DealW.Infrastructure.pdb
+C:\Users\User\RiderProjects\DealW-backend\DealW.Infrastructure\obj\Debug\net8.0\ref\DealW.Infrastructure.dll

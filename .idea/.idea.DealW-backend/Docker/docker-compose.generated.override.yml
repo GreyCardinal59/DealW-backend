@@ -1,0 +1,39 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  dealw:
+    build:
+      context: "C:\\Users\\User\\RiderProjects\\DealW-backend"
+      dockerfile: "DealW.API/Dockerfile"
+      target: "base"
+      args:
+        BUILD_CONFIGURATION: "Debug"
+    command: []
+    entrypoint:
+    - "/opt/JetBrains/RiderDebuggerTools/linux-x64/JetBrains.Debugger.Worker"
+    - "--runtimeconfig"
+    - "/opt/JetBrains/RiderDebuggerTools/JetBrains.Debugger.Worker.runtimeconfig.json"
+    - "--mode=server"
+    - "--frontend-port=57000"
+    - "--backend-port=57200"
+    - "--roslyn-worker-port=57404"
+    - "--timeout=60"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+      RIDER_DEBUGGER_LOG_DIR: "/var/opt/JetBrains/RiderDebuggerTools"
+      RESHARPER_LOG_CONF: "/etc/opt/JetBrains/RiderDebuggerTools/backend-log.xml"
+    image: "dealw:dev"
+    ports:
+    - "127.0.0.1:57004:57000"
+    - "127.0.0.1:57204:57200"
+    - "127.0.0.1:57404:57404"
+    volumes:
+    - "C:\\Users\\User\\RiderProjects\\DealW-backend\\DealW.API:/app:rw"
+    - "C:\\Users\\User\\RiderProjects\\DealW-backend:/src:rw"
+    - "C:\\Users\\User\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\Users\\User\\AppData\\Local\\JetBrains\\RiderRemoteDebugger\\2025.1.2\\\
+      Linux64:/opt/JetBrains/RiderDebuggerTools"
+    - "C:\\Users\\User\\AppData\\Local\\Programs\\Rider\\bin\\backend-log.xml:/etc/opt/JetBrains/RiderDebuggerTools/backend-log.xml"
+    - "C:\\Users\\User\\AppData\\Local\\JetBrains\\Rider2025.1\\log\\DebuggerWorker\\\
+      JetBrains.Debugger.Worker.2025_5_27_22_26_26:/var/opt/JetBrains/RiderDebuggerTools:rw"
+    working_dir: "/app"

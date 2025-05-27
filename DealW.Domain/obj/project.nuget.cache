@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XfcjLMafmsQ=",
+  "dgSpecHash": "L0BLyALRLW0=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\DealW\\src\\DealW-backend\\DealW.Domain\\DealW.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\RiderProjects\\DealW-backend\\DealW.Domain\\DealW.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.16\\microsoft.windowsdesktop.app.ref.8.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

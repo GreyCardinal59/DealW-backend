@@ -9,3 +9,15 @@ D:\Projects\DealW\src\DealW-backend\DealW.Application\obj\Debug\net8.0\DealW.App
 D:\Projects\DealW\src\DealW-backend\DealW.Application\obj\Debug\net8.0\refint\DealW.Application.dll
 D:\Projects\DealW\src\DealW-backend\DealW.Application\obj\Debug\net8.0\DealW.Application.pdb
 D:\Projects\DealW\src\DealW-backend\DealW.Application\obj\Debug\net8.0\ref\DealW.Application.dll
+C:\Users\User\RiderProjects\DealW-backend\DealW.Application\bin\Debug\net8.0\DealW.Application.deps.json
+C:\Users\User\RiderProjects\DealW-backend\DealW.Application\bin\Debug\net8.0\DealW.Application.dll
+C:\Users\User\RiderProjects\DealW-backend\DealW.Application\bin\Debug\net8.0\DealW.Application.pdb
+C:\Users\User\RiderProjects\DealW-backend\DealW.Application\obj\Debug\net8.0\DealW.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\DealW-backend\DealW.Application\obj\Debug\net8.0\DealW.Application.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\DealW-backend\DealW.Application\obj\Debug\net8.0\DealW.Application.AssemblyInfo.cs
+C:\Users\User\RiderProjects\DealW-backend\DealW.Application\obj\Debug\net8.0\DealW.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\DealW-backend\DealW.Application\obj\Debug\net8.0\DealW.Application.sourcelink.json
+C:\Users\User\RiderProjects\DealW-backend\DealW.Application\obj\Debug\net8.0\DealW.Application.dll
+C:\Users\User\RiderProjects\DealW-backend\DealW.Application\obj\Debug\net8.0\refint\DealW.Application.dll
+C:\Users\User\RiderProjects\DealW-backend\DealW.Application\obj\Debug\net8.0\DealW.Application.pdb
+C:\Users\User\RiderProjects\DealW-backend\DealW.Application\obj\Debug\net8.0\ref\DealW.Application.dll
